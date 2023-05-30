@@ -1,0 +1,121 @@
+/* styles.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set the background color and font styles for the entire app */
+  body {
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #6495ED; /* Light blue color */
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  .search-bar {
+    display: flex;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .search-bar button {
+    padding: 8px 12px;
+    background-color: #555;
+    border: none;
+    color: #fff;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  
+  /* Sidebar styles */
+  aside {
+    background-color: #6495ED; /* Light blue color */
+    color: #fff;
+    width: 200px;
+    padding: 20px;
+    float: left;
+  }
+  
+  .sidebar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar-nav a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar-nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .sidebar-nav .sub-menu {
+    margin-left: 10px;
+  }
+  
+  /* Main content styles */
+  main {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .create-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .create-form label {
+    display: block;
+  }
+  
+  .create-form input[type="text"],
+  .create-form input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .create-form button[type="submit"] {
+    padding: 8px 12px;
+    background-color: #555;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #6495ED; /* Light blue color */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
